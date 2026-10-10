@@ -1,0 +1,32 @@
+# Automated Video Dubbing System Requirements
+# Core Video & Audio
+yt-dlp>=2025.1.0
+imageio-ffmpeg>=0.5.0
+pydub>=0.25.1
+
+# Speech Recognition & Translation
+openai-whisper>=20231117
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.40.0
+sentencepiece>=0.2.0
+sacremoses>=0.1.0
+onnxruntime>=1.18.0
+indictranstoolkit>=1.1.0
+
+# Speech Synthesis
+edge-tts>=7.0.0
+
+# CLI & Utilities
+rich>=13.7.0
+python-dotenv>=1.0.0
+pydantic>=2.7.0
+
+# API Backend (for Phase 2)
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# Documentation & PDF Generation
+reportlab>=4.0.0
+pillow>=9.0.0

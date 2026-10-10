@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+env/
+venv/
+ENV/
+
+# Project Data & Media (Job artifacts, raw audio/video)
+data/jobs/*
+data/cache/*
+data/outputs/*
+!data/jobs/.gitkeep
+!data/cache/.gitkeep
+!data/outputs/.gitkeep
+*.mp4
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+
+# Environment variables
+.env
+
+# Hugging Face & Torch caches
+.cache/
+hf_cache/
+
+# Node / Vite (Phase 3)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Scratch and test files
+scratch/
+test_*
+*.tmp

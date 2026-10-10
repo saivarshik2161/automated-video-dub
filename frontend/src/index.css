@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #fcfcfd;
+    color: #0f172a;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
